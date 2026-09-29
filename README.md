@@ -21,7 +21,11 @@ The imagery is archived separately:
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23021010.svg)](https://doi.org/10.5281/zenodo.23021010)
 
-Unzip the three archives so the tree looks like this:
+The record holds five archives: `orthophoto.zip`, `synthetic_queries.zip` and
+`flights-part01.zip` to `flights-part03.zip`, one per flight. The flight parts
+are independent ZIPs, not a multi-volume archive, so extract each one and let
+all three land in the same `flights/` directory. The result should look like
+this:
 
 ```
 .
